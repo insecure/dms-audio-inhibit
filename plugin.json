@@ -1,0 +1,10 @@
+{
+  "id": "audioInhibit",
+  "name": "Audio Inhibit",
+  "description": "Enables idle inhibitor if audio is playing.",
+  "version": "1.0.0",
+  "author": "Tobias Hommel",
+  "type": "daemon",
+  "component": "./audioInhibit.qml",
+  "capabilities": ["audio", "monitoring"]
+}
